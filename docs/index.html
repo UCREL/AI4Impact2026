@@ -115,6 +115,17 @@ td.day{font-family:var(--head);font-weight:700;white-space:nowrap}
 .person h3{font-size:19px}
 .person .role{color:var(--grey);font-size:15px;margin-top:4px}
 
+/* speakers */
+.speakers-grid{align-items:start}
+.speaker{justify-content:flex-start}
+.speaker .bio{font-size:15px;line-height:1.55;text-align:left;margin-top:4px}
+.speaker details{border:0;padding:0;margin:0;background:transparent;text-align:left;width:100%}
+.speaker summary{font-size:15px;color:var(--red);font-weight:600}
+.speaker details p{font-size:15px;line-height:1.55;margin-top:8px}
+.speaker .talk{margin-top:6px;padding-top:12px;border-top:1px solid var(--pale);width:100%;font-size:14px;color:var(--grey);text-align:left}
+.speaker .talk strong{color:var(--ink)}
+.speaker .links{font-size:15px;font-weight:600;align-self:flex-start}
+
 /* apply */
 .apply{background:var(--grey);color:#fff}
 .apply h2{color:#fff}
@@ -162,6 +173,7 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       <a href="#about">About</a>
       <a href="#project">Project</a>
       <a href="#programme">Programme</a>
+      <a href="#speakers">Speakers</a>
       <a href="#team">Team</a>
       <a href="#faq">FAQ</a>
     </nav>
@@ -243,7 +255,49 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
   </div>
 </section>
 
-<section id="team" class="alt" aria-labelledby="team-h">
+<section id="speakers" class="alt" aria-labelledby="speakers-h">
+  <div class="wrap">
+    <h2 id="speakers-h">Invited speakers</h2>
+    <p class="lead">Researchers and practitioners who bring perspectives on responsible, inclusive AI from Nigeria and around the world.</p>
+    <div class="grid g3 speakers-grid">
+
+      <div class="card person speaker">
+        <div class="avatar"><span aria-hidden="true">BO</span><img src="assets/people/blessing_ogbuokiri.png" alt="Dr Blessing Ogbuokiri" onerror="this.remove()"></div>
+        <h3>Dr Blessing Ogbuokiri</h3>
+        <p class="role">Assistant Professor of Computer Science, Brock University, Canada; Director, Responsible and Applied Machine Learning Laboratory (RAML Lab)</p>
+        <p class="bio">Works on responsible AI, AI safety and machine learning, making AI systems fair, transparent and trustworthy, with applications in healthcare and social good.</p>
+        <details>
+          <summary>Full bio</summary>
+          <p>Dr Blessing Ogbuokiri is an Assistant Professor in the Department of Computer Science at Brock University, Canada, and Director of the Responsible and Applied Machine Learning Laboratory (RAML Lab). His research expertise lies in responsible artificial intelligence (AI), AI safety, and machine learning, with a focus on fairness, transparency, and the trustworthy deployment of AI systems. He also works on advancing theoretical computing methods to improve the interpretability, fairness, and scalability of AI models. His research bridges fundamental algorithmic advances with real-world applications, particularly in healthcare and social good.</p>
+          <p>Dr Ogbuokiri has secured over $1.2 million in research funding, including support from the CIFAR AI Safety Solutions Network, the Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grants Program, the New Frontiers in Research Fund (NFRF), and Brock University. His research program seeks to advance AI systems that are not only accurate and scalable but also fair, interpretable, and trustworthy across diverse populations and real-world contexts.</p>
+        </details>
+        <a class="links" href="https://brocku.ca/mathematics-science/computer-science/faculty-staff/blessing-ogbuokiri/" target="_blank" rel="noopener">Profile at Brock University</a>
+        <p class="talk"><strong>Talk:</strong> title and day to be announced</p>
+      </div>
+
+      <!-- Speaker 2: replace initials, photo (assets/people/speaker2.png), name, role, bio, link and talk, then remove class "tba" -->
+      <div class="card person speaker tba">
+        <div class="avatar"><span>Photo soon</span><img src="assets/people/speaker2.png" alt="" onerror="this.remove()"></div>
+        <h3>Speaker to be announced</h3>
+        <p class="role">Details coming soon</p>
+        <p class="bio">We are confirming further speakers, including colleagues working on language technology for Igbo and other Nigerian languages.</p>
+        <p class="talk"><strong>Talk:</strong> to be announced</p>
+      </div>
+
+      <!-- Speaker 3: replace initials, photo (assets/people/speaker3.png), name, role, bio, link and talk, then remove class "tba" -->
+      <div class="card person speaker tba">
+        <div class="avatar"><span>Photo soon</span><img src="assets/people/speaker3.png" alt="" onerror="this.remove()"></div>
+        <h3>Speaker to be announced</h3>
+        <p class="role">Details coming soon</p>
+        <p class="bio">Check back for updates, or follow #AI4ImpactAnambra.</p>
+        <p class="talk"><strong>Talk:</strong> to be announced</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="team" aria-labelledby="team-h">
   <div class="wrap">
     <h2 id="team-h">Organising team</h2>
     <p class="lead">A joint team from both partner universities, with local mentors and invited speakers from Anambra State and beyond.</p>
@@ -285,7 +339,7 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
         <div class="card person">
           <div class="avatar"><span aria-hidden="true">VM</span><img src="assets/people/mokwe.png" alt="Dr. Uju Vivian Mokwe" onerror="this.remove()"></div>
           <h3>Dr. Uju Vivian Mokwe</h3>
-          <p class="role">Head of Department, Information Technology and Cybersecurity, Peter University, Achina-Onneh.</p>
+          <p class="role">Head of Department, Information Technology and Cybersecurity, Peter University Achina-Onne</p>
         </div>
       </div>
     </div>
