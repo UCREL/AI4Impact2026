@@ -53,7 +53,7 @@ header.top .wrap{display:flex;align-items:center;gap:20px;min-height:68px;flex-w
 .person{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
 .avatar{position:relative;width:132px;height:132px;border-radius:50%;background:var(--pale);overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .avatar span{font-family:var(--head);font-weight:700;font-size:40px;color:#fff}
-.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--pale)}
 .person.tba .avatar{background:#fff;border:2px dashed var(--pale)}
 .person.tba .avatar span{color:var(--grey);font-size:16px;font-family:var(--body);font-weight:600}
 .person h3{margin-bottom:0}
@@ -275,13 +275,18 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
         <p class="talk"><strong>Talk:</strong> title and day to be announced</p>
       </div>
 
-      <!-- Speaker 2: replace initials, photo (assets/people/speaker2.png), name, role, bio, link and talk, then remove class "tba" -->
-      <div class="card person speaker tba">
-        <div class="avatar"><span>Photo soon</span><img src="assets/people/speaker2.png" alt="" onerror="this.remove()"></div>
-        <h3>Speaker to be announced</h3>
-        <p class="role">Details coming soon</p>
-        <p class="bio">We are confirming further speakers, including colleagues working on language technology for Igbo and other Nigerian languages.</p>
-        <p class="talk"><strong>Talk:</strong> to be announced</p>
+      <div class="card person speaker">
+        <div class="avatar"><span aria-hidden="true">TR</span><img src="assets/people/tharindu_ranasinghe.png" alt="Dr Tharindu Ranasinghe" onerror="this.remove()"></div>
+        <h3>Dr Tharindu Ranasinghe</h3>
+        <p class="role">Lecturer in Security and Protection Science, School of Computing and Communications, Lancaster University</p>
+        <p class="bio">Develops machine learning approaches for natural language processing, with a focus on NLP for social good and low-resource languages.</p>
+        <details>
+          <summary>Full bio</summary>
+          <p>Dr Tharindu Ranasinghe's research focuses on developing machine learning approaches for natural language processing (NLP) tasks, particularly NLP for social good. His work has applications in computational social science, digital humanities and text adaptation, and he has published in leading NLP journals and conferences, including ACL, EMNLP, NAACL and COLING.</p>
+          <p>He is an Associate Editor of the journal Natural Language Processing (previously the Journal of Natural Language Engineering) and serves as an Area Chair for ACL, NAACL, EMNLP and EACL. He also co-chairs the New Trends in Translation and Technology (NeTTT) conference series and the LoResLM workshop on language models for low-resource languages.</p>
+        </details>
+        <a class="links" href="https://www.lancaster.ac.uk/scc/about-us/people/tharindu-ranasinghe" target="_blank" rel="noopener">Profile at Lancaster University</a>
+        <p class="talk"><strong>Talk:</strong> title and day to be announced</p>
       </div>
 
       <!-- Speaker 3: replace initials, photo (assets/people/speaker3.png), name, role, bio, link and talk, then remove class "tba" -->
@@ -289,7 +294,7 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
         <div class="avatar"><span>Photo soon</span><img src="assets/people/speaker3.png" alt="" onerror="this.remove()"></div>
         <h3>Speaker to be announced</h3>
         <p class="role">Details coming soon</p>
-        <p class="bio">Check back for updates, or follow #AI4ImpactAnambra.</p>
+        <p class="bio">We are confirming a further speaker working on language technology for Igbo and other Nigerian languages. Follow #AI4ImpactAnambra for updates.</p>
         <p class="talk"><strong>Talk:</strong> to be announced</p>
       </div>
 
