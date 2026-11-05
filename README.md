@@ -1,7 +1,7 @@
 <p>
 <img src="assets/lancaster-logo.png" alt="Lancaster University" height="56">&nbsp;&nbsp;
 <img src="assets/ucrel-logo.png" alt="UCREL" height="56">&nbsp;&nbsp;
-<img src="assets/peter-university-logo.png" alt="Peter University" height="56">&nbsp;&nbsp;
+<img src="assets/peter_university.png" alt="Peter University" height="56">&nbsp;&nbsp;
 <img src="assets/flua-logo.png" alt="Friends of Lancaster University in America" height="56">
 </p>
 
