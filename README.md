@@ -40,6 +40,8 @@ Across the week, mixed teams build a **bilingual community knowledge assistant**
 
 ## Programme
 
+All times are West Africa Time (WAT, UTC+1). Dr Ignatius Ezeani leads every lab, with Prof Paul Rayson, Dr John Vidler and local teaching assistants supporting.
+
 ### Day 1 · Monday 30 November 2026 · Foundations and gathering knowledge
 
 | Time | Session | Lead |
@@ -47,46 +49,51 @@ Across the week, mixed teams build a **bilingual community knowledge assistant**
 | 08:00 to 09:00 | Registration, Wi-Fi and Google account check, baseline survey | Local team |
 | 09:00 to 09:45 | Opening ceremony | Vice-Chancellor; Dr Ignatius Ezeani |
 | 09:45 to 10:30 | **Anchor talk:** Language AI for our languages | Dr Ignatius Ezeani |
-| 11:00 to 13:00 | **Lab A:** Text as data · materials added on the day | Dr Ezeani, Dr Vidler |
-| 14:00 to 15:30 | **Lab B, subtask 1 (Gather):** build the bilingual knowledge base | All mentors |
-| 16:00 to 17:00 | Checkpoint and data ethics clinic | All mentors |
+| 11:00 to 13:00 | **Lab 1A:** Text as data · materials added on the day | Dr Ezeani |
+| 14:00 to 15:30 | **Lab 1B, step 1 (Gather):** build the bilingual knowledge base | Dr Ezeani; all mentors |
+| 16:00 to 17:00 | Checkpoint and data ethics clinic | Dr Ezeani; Prof Rayson |
 
 ### Day 2 · Tuesday 1 December 2026 · Understanding the question
 
 | Time | Session | Lead |
 | --- | --- | --- |
 | 09:00 to 10:00 | **Anchor talk:** How computers find meaning in text | Prof Paul Rayson |
-| 10:30 to 12:30 | **Lab A:** Text classification · materials added on the day | Prof Rayson, Dr Ezeani |
-| 13:30 to 15:30 | **Lab B, subtask 2 (Understand):** the question router | All mentors |
-| 16:00 to 17:00 | Checkpoint | All mentors |
+| 10:30 to 12:30 | **Lab 2A:** Teaching a computer to sort text · materials added on the day | Dr Ezeani |
+| 13:30 to 15:30 | **Lab 2B, step 2 (Understand):** the question router | Dr Ezeani; all mentors |
+| 16:00 to 17:00 | Checkpoint | Dr Ezeani; Prof Rayson |
 
 ### Day 3 · Wednesday 2 December 2026 · Finding the key facts
 
 | Time | Session | Lead |
 | --- | --- | --- |
-| 09:00 to 10:00 | **Anchor talk:** Igbo in the machine | Invited speaker |
-| 10:30 to 12:30 | **Lab A:** Information extraction · materials added on the day | Prof Rayson, Dr Ezeani |
-| 13:30 to 15:30 | **Lab B, subtask 3 (Extract):** glossary and fact cards | All mentors |
-| 16:00 to 17:00 | Checkpoint | All mentors |
+| 09:00 to 10:00 | **Anchor talk:** Language AI for low-resource languages | Dr Tharindu Ranasinghe, Lancaster University |
+| 10:30 to 12:30 | **Lab 3A:** Finding names, places, dates and numbers · materials added on the day | Dr Ezeani |
+| 13:30 to 15:30 | **Lab 3B, step 3 (Extract):** glossary and fact cards, with an Igbo language clinic | Dr Ezeani; all mentors |
+| 16:00 to 17:00 | Checkpoint | Dr Ezeani; Prof Rayson |
 
 ### Day 4 · Thursday 3 December 2026 · Answering the question
 
 | Time | Session | Lead |
 | --- | --- | --- |
-| 09:00 to 10:00 | **Anchor talk:** AI that works where the internet does not | Dr John Vidler |
-| 10:30 to 12:30 | **Lab A:** Search, prompting and retrieval · materials added on the day | Dr Vidler, Dr Ezeani |
-| 13:30 to 15:30 | **Lab B, subtask 4 (Answer):** assemble the assistant | All mentors |
-| 16:00 to 17:00 | Live demo round | All mentors |
+| 09:00 to 10:00 | **Anchor talk:** Evaluating language models in Yoruba, Igbo and Hausa: lessons from IrokoBench | Inioluwa Atanda |
+| 10:30 to 12:30 | **Lab 4A:** Search, prompting and retrieval, including AI that works where the internet does not · materials added on the day | Dr Ezeani; Dr Vidler |
+| 13:30 to 15:30 | **Lab 4B, step 4 (Answer):** assemble the assistant | Dr Ezeani; all mentors |
+| 16:00 to 17:00 | Live demo swap | Dr Ezeani; Dr Vidler |
 
-### Day 5 · Friday 4 December 2026 · Testing, showcase and awards
+### Day 5 · Friday 4 December 2026 · Testing, keynote, showcase and awards
 
 | Time | Session | Lead |
 | --- | --- | --- |
-| 09:00 to 09:45 | **Anchor talk:** Responsible AI for everyday lives | Invited speaker |
-| 09:45 to 11:15 | **Lab A:** Evaluation and responsible AI · materials added on the day | Dr Ezeani, Prof Rayson |
-| 11:30 to 13:00 | **Lab B, subtask 5 (Evaluate and present):** final fixes and pitch | All mentors |
-| 14:00 to 15:30 | Showcase: team presentations | Judging panel |
-| 16:00 to 16:45 | Awards, certificates and closing | Vice-Chancellor; Lancaster team |
+| 09:00 to 09:20 | Briefing: How do we know it works? | Dr Ignatius Ezeani |
+| 09:20 to 11:00 | **Lab 5A:** Testing and responsible AI · materials added on the day | Dr Ezeani |
+| 11:15 to 12:45 | **Lab 5B, step 5 (Evaluate and present):** fix, re-test, prepare the pitch | Dr Ezeani; all mentors |
+| 13:45 to 14:00 | Showcase opening | Vice-Chancellor |
+| 14:00 to 14:45 | **Keynote (remote):** Responsible AI for everyday lives | Dr Blessing Ogbuokiri, Brock University, Canada |
+| 14:45 to 16:00 | Showcase: team presentations | Judging panel |
+| 16:00 to 16:30 | Judges deliberate; open floor | Prof Paul Rayson |
+| 16:30 to 17:15 | Awards, certificates and closing | Vice-Chancellor; Lancaster team |
+
+Talk titles are working titles and may be refined.
 
 ---
 
