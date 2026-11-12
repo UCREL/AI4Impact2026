@@ -1,11 +1,12 @@
 # Day 4 · Thursday 3 December 2026 · Answer
 
-**Anchor talk:** AI that works where the internet does not (Dr John Vidler)
+**Anchor talk (10:00):** Evaluating language models in Yoruba, Igbo and Hausa: lessons from IrokoBench (Inioluwa Atanda)
 
-**Lab A: Search, prompting and retrieval.** Keyword search over documents, prompt patterns (role, task, context, format), retrieval-augmented generation, spotting made-up answers.
+| Lab | Time | What you do |
+| --- | --- | --- |
+| 4A: Search, prompting and retrieval | 10:40 to 12:10 | Keyword and similarity search in English and Igbo; AI that works where the internet does not (Dr John Vidler); write clear prompts and spot invented answers; compare three kinds of system on the same questions |
+| 4B: Answer (project step 4) | 14:00 to 15:30 | Assemble your assistant: detect the language, route the question, expand it with your glossary, find the best answer and reply with its source, or say "I'm not sure" |
 
-**Lab B: Project subtask 4.** Assemble the assistant: question in, router, glossary-expanded search, answer out with its source, in the asker's language. Simple chat interface.
+**What your group produces today:** a working assistant and `assistant_config.json`
 
-**Output:** a working assistant
-
-Notebooks, data and slides are added on the day.
+Notebooks and data are added on the morning of the day.

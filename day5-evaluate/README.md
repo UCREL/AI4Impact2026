@@ -1,13 +1,14 @@
 # Day 5 · Friday 4 December 2026 · Evaluate and present
 
-**Anchor talk:** Responsible AI for everyday lives (invited speaker)
+**Keynote (15:05, remote):** Responsible AI for everyday lives (Dr Blessing Ogbuokiri)
 
-**Lab A: Evaluation and responsible AI.** Build a test set of 20 unseen questions, score answers (correct, partly correct, wrong, unsafe), native-speaker check of Igbo, responsible AI checklist.
+| Lab | Time | What you do |
+| --- | --- | --- |
+| 5A: Testing and responsible AI | 10:10 to 11:30 | Run 20 unseen test questions with a shared scoring rubric, have another group check your Igbo, and complete the responsible AI checklist |
+| 5B: Evaluate and present (project step 5) | 11:50 to 12:45 | Fix your top three failures, re-test them, and prepare a 6-minute pitch with a live demo |
 
-**Lab B: Project subtask 5.** Fix the top failures, run the final test, and prepare a 6-minute pitch and live demo.
+**Afternoon:** showcase (14:05), keynote, awards and certificates.
 
-**Afternoon:** showcase, awards and certificates.
+**What your group produces today:** `test_report.csv`, your pitch and a live demo
 
-**Output:** test report, pitch and demo
-
-Notebooks, templates and slides are added on the day.
+Notebooks and templates are added on the morning of the day.

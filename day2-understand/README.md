@@ -1,11 +1,12 @@
 # Day 2 · Tuesday 1 December 2026 · Understand
 
-**Anchor talk:** How computers find meaning in text (Prof Paul Rayson)
+**Anchor talk (10:00):** How computers find meaning in text (Prof Paul Rayson)
 
-**Lab A: Text classification.** Labelled examples, training and testing, accuracy, confusion matrix. Stretch: a zero-shot multilingual classifier.
+| Lab | Time | What you do |
+| --- | --- | --- |
+| 2A: Teaching a computer to sort text | 10:40 to 12:10 | Sort question cards by hand, then train a classifier; read its accuracy and mistakes; see why a model trained only on English fails on Igbo, and fix it |
+| 2B: Understand (project step 2) | 14:00 to 15:30 | Train a question router on your knowledge base, test it on questions from another group, log its errors and improve it |
 
-**Lab B: Project subtask 2.** Label your questions by topic, train a question router, and test it on new English, Igbo and mixed questions.
+**What your group produces today:** `router_report.csv` and `error_log.csv`
 
-**Output:** a question router and its accuracy score
-
-Notebooks, data and slides are added on the day.
+Notebooks and data are added on the morning of the day.

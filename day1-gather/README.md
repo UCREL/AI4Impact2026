@@ -1,16 +1,12 @@
 # Day 1 · Monday 30 November 2026 · Gather
 
-**Anchor talk:** Language AI for our languages (Dr Ignatius Ezeani)
+**Anchor talk (10:25):** Language AI for our languages (Dr Ignatius Ezeani)
 
-**Lab A: Text as data.** Opening Colab, running cells, reading text, tokenising English and Igbo, word counts, handling Igbo diacritics.
+| Lab | Time | What you do |
+| --- | --- | --- |
+| 1A: Text as data | 11:00 to 12:10 | Open a notebook, load a table of questions, count words in English and Igbo, and write Igbo letters one consistent way |
+| 1B: Gather (project step 1) | 14:00 to 15:30 | Sort sources into trusted and untrusted, correct a starter knowledge base, and add your own community questions in English and Igbo, each with a source |
 
-**Lab B: Project subtask 1.** Form your group, choose a sector, collect real community questions, and build a knowledge base of at least 40 question and answer pairs in English and Igbo, each with its source.
+**What your group produces today:** `knowledge_base.csv`
 
-**Output:** `knowledge_base.csv`
-
-| File | Open |
-| --- | --- |
-| `lab-a.ipynb` | Added on the day |
-| `lab-b-project.ipynb` | Added on the day |
-| `data/` | Added on the day |
-| `slides/` | Added on the day |
+Notebooks and data are added on the morning of the day.
