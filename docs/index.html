@@ -12,7 +12,7 @@
 
 <meta name="description" content="A free five-day hands-on language AI workshop at Peter University, Achina-Onneh, Anambra State, 30 November to 4 December 2026. A partnership between Lancaster University and Peter University, funded by the Friends of Lancaster University in America.">
 <meta property="og:title" content="AI for Impact 2026: Language AI for Local Solutions">
-<meta property="og:description" content="Free 5-day workshop, 30 Nov to 4 Dec 2026, Peter University, Achina-Onneh. Staff and students from any discipline. No coding needed. Apply by 15 November.">
+<meta property="og:description" content="Free 5-day workshop, 30 Nov to 4 Dec 2026, Peter University, Achina-Onneh. Staff and students from any discipline. No coding needed. Supported by African Languages Lab.">
 <meta property="og:image" content="assets/banner-landscape.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -145,6 +145,11 @@ details p{margin-top:10px}
 .logo{border:2px dashed var(--pale);color:var(--grey);font-size:14px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;height:72px}
 .logo.lu{width:240px}.logo.pu{width:180px}.logo.fl{width:150px}
 .partners img{height:72px;width:auto}
+.partners img.wide{height:48px}
+.partnerrow{display:flex;flex-wrap:wrap;gap:28px 48px;margin-top:8px}
+.plabel{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--grey);margin-top:24px}
+.partnerrow .partners{margin-top:10px}
+@media (max-width:640px){.partners img{height:56px}.partners img.wide{height:36px;max-width:100%}}
 
 footer{background:#000;color:#fff;padding:32px 0;font-size:15px}
 footer a{color:#fff}
@@ -175,9 +180,10 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       <a href="#programme">Programme</a>
       <a href="#speakers">Speakers</a>
       <a href="#team">Team</a>
+      <a href="#selection">Selection</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn small" href="#apply">Apply</a>
+    <a class="btn small" href="#programme">Programme</a>
   </div>
 </header>
 
@@ -192,7 +198,7 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       <p class="tag">Language AI for Local Solutions</p>
       <p class="lede">Build an Igbo and English AI assistant that answers your community's questions, in one week, with mentors from Lancaster University, UK. No coding experience needed.</p>
       <div class="ctas">
-        <a class="btn ghost" href="#apply">How to apply</a>
+        <a class="btn ghost" href="#speakers">Meet the speakers</a>
         <a class="btn ghost" href="#programme">See the programme</a>
       </div>
     </div>
@@ -200,7 +206,7 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       <div><dt>When</dt><dd>Monday 30 November to Friday 4 December 2026</dd></div>
       <div><dt>Where</dt><dd>Peter University, Achina-Onneh, Anambra State, Nigeria</dd></div>
       <div><dt>Who</dt><dd>University staff and students, any discipline</dd></div>
-      <div class="deadline"><dt>Apply by</dt><dd>Sunday 15 November 2026, 23:59 WAT (extended)</dd></div>
+      <div class="deadline"><dt>Applications</dt><dd>Closed. Offers sent on 17 November</dd></div>
     </dl>
   </div>
 </section>
@@ -228,9 +234,9 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       <li><span class="num">Thursday</span><h3>4. Answer</h3><p>Find the best answer and reply with its source.</p></li>
       <li><span class="num">Friday</span><h3>5. Test and showcase</h3><p>Check it honestly, present it, and compete for awards.</p></li>
     </ol>
-    <p class="lead" style="margin-top:32px">Choose one sector for your team:</p>
+    <p class="lead" style="margin-top:32px">Six project groups, each with its own sector:</p>
     <div class="chips">
-      <span class="chip">Agriculture</span><span class="chip">Health</span><span class="chip">Education</span><span class="chip">Energy</span><span class="chip">Environment</span><span class="chip">Livelihoods and trade</span>
+      <span class="chip">Health</span><span class="chip">Agriculture and food</span><span class="chip">Education and opportunities</span><span class="chip">Igbo language and literacy</span><span class="chip">Livelihoods and microfinance</span><span class="chip">Environment and energy</span>
     </div>
   </div>
 </section>
@@ -241,13 +247,13 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
     <p class="lead">Daily 10:00 to 16:00 West Africa Time. Lunch and refreshments are provided. Full session details and materials are published on our <a href="https://github.com/UCREL/AI4Impact2026">GitHub repository</a> each morning.</p>
     <div class="tablebox">
       <table>
-        <thead><tr><th scope="col">Day</th><th scope="col">Theme</th><th scope="col">Anchor talk</th><th scope="col">Labs</th></tr></thead>
+        <thead><tr><th scope="col">Day</th><th scope="col">Theme</th><th scope="col">Talks</th><th scope="col">Labs</th></tr></thead>
         <tbody>
-          <tr><td class="day">Mon 30 Nov</td><td>Foundations and gathering knowledge</td><td>Language AI for our languages<br>Dr Ignatius Ezeani</td><td>Text as data; building the knowledge base</td></tr>
-          <tr><td class="day">Tue 1 Dec</td><td>Understanding the question</td><td>How computers find meaning in text<br>Prof Paul Rayson</td><td>Text classification; the question router</td></tr>
-          <tr><td class="day">Wed 2 Dec</td><td>Finding the key facts</td><td>Language AI for low-resource languages<br>Dr Tharindu Ranasinghe</td><td>Information extraction; glossary and fact cards</td></tr>
-          <tr><td class="day">Thu 3 Dec</td><td>Answering the question</td><td>Evaluating language models in Yoruba, Igbo and Hausa<br>Inioluwa Atanda</td><td>Search, prompting and retrieval; assembling the assistant</td></tr>
-          <tr><td class="day">Fri 4 Dec</td><td>Testing, keynote, showcase and awards</td><td>Keynote at 15:05 (remote): Responsible AI for everyday lives<br>Dr Blessing Ogbuokiri</td><td>Evaluation; team presentations, awards and certificates</td></tr>
+          <tr><td class="day">Mon 30 Nov</td><td>Foundations and gathering knowledge</td><td><strong>10:25</strong> Language AI for our languages<br>Dr Ignatius Ezeani</td><td>Text as data; building the knowledge base</td></tr>
+          <tr><td class="day">Tue 1 Dec</td><td>Understanding the question</td><td><strong>10:00</strong> How computers find meaning in text<br>Prof Paul Rayson<br><br><strong>12:30 (remote)</strong> Beyond literal translation: context, pragmatic understanding and effective Igbo–English AI communication<br>Dr Ebuka Igwebuike</td><td>Text classification; the question router</td></tr>
+          <tr><td class="day">Wed 2 Dec</td><td>Finding the key facts</td><td><strong>10:00</strong> Language AI for low-resource languages<br>Dr Tharindu Ranasinghe<br><br><strong>12:30</strong> Building AI that speaks our language: lessons from making Mansa AI work for African communities<br>John Emeka Eze, African Languages Lab</td><td>Information extraction; glossary and fact cards</td></tr>
+          <tr><td class="day">Thu 3 Dec</td><td>Answering the question</td><td><strong>10:00</strong> Evaluating language models in Yoruba, Igbo and Hausa<br>Inioluwa Atanda</td><td>Search, prompting and retrieval; assembling the assistant</td></tr>
+          <tr><td class="day">Fri 4 Dec</td><td>Testing, keynote, showcase and awards</td><td><strong>15:05 (remote keynote)</strong> Responsible AI for everyday lives<br>Dr Blessing Ogbuokiri</td><td>Evaluation; team presentations, awards and certificates</td></tr>
         </tbody>
       </table>
     </div>
@@ -262,17 +268,20 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
     <div class="grid g3 speakers-grid">
 
       <div class="card person speaker">
-        <div class="avatar"><span aria-hidden="true">BO</span><img src="assets/people/blessing_ogbuokiri.png" alt="Dr Blessing Ogbuokiri" onerror="this.remove()"></div>
-        <h3>Dr Blessing Ogbuokiri</h3>
-        <p class="role">Assistant Professor of Computer Science, Brock University, Canada; Director, Responsible and Applied Machine Learning Laboratory (RAML Lab)</p>
-        <p class="bio">Works on responsible AI, AI safety and machine learning, making AI systems fair, transparent and trustworthy, with applications in healthcare and social good.</p>
+        <div class="avatar"><span aria-hidden="true">EI</span><img src="assets/people/igwebuike.png" alt="Dr Ebuka Igwebuike" onerror="this.remove()"></div>
+        <h3>Dr Ebuka Igwebuike</h3>
+        <p class="role">Research Associate, School of Languages, Cultures and Linguistics, SOAS University of London; Alexander von Humboldt Research Fellow, Kiel University, Germany</p>
+        <p class="bio">Studies how language, discourse and society shape one another, and how insights from linguistics can make AI understand what people mean, not only what they say.</p>
         <details>
           <summary>Full bio</summary>
-          <p>Dr Blessing Ogbuokiri is an Assistant Professor in the Department of Computer Science at Brock University, Canada, and Director of the Responsible and Applied Machine Learning Laboratory (RAML Lab). His research expertise lies in responsible artificial intelligence (AI), AI safety, and machine learning, with a focus on fairness, transparency, and the trustworthy deployment of AI systems. He also works on advancing theoretical computing methods to improve the interpretability, fairness, and scalability of AI models. His research bridges fundamental algorithmic advances with real-world applications, particularly in healthcare and social good.</p>
-          <p>Dr Ogbuokiri has secured over $1.2 million in research funding, including support from the CIFAR AI Safety Solutions Network, the Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grants Program, the New Frontiers in Research Fund (NFRF), and Brock University. His research program seeks to advance AI systems that are not only accurate and scalable but also fair, interpretable, and trustworthy across diverse populations and real-world contexts.</p>
+          <p>Dr Ebuka Igwebuike is a Research Associate in the School of Languages, Cultures and Linguistics at SOAS University of London and an Alexander von Humboldt Research Fellow at Kiel University, Germany. He holds a PhD in Applied Linguistics (Discourse Analysis) from the University of Ibadan, Nigeria. His research examines the relationship between language, discourse and society, with particular interests in media discourse, political communication, conflict representation, pragmatics, multilingual communication and the application of linguistic insights to artificial intelligence.</p>
         </details>
-        <a class="links" href="https://brocku.ca/mathematics-science/computer-science/faculty-staff/blessing-ogbuokiri/" target="_blank" rel="noopener">Profile at Brock University</a>
-        <p class="talk"><strong>Talk:</strong> Friday 4 December, 15:05 WAT (remote keynote): Responsible AI for everyday lives</p>
+        <details>
+          <summary>Talk abstract</summary>
+          <p>Bilingual AI assistants must understand what users intend, not only recognise and translate their words. Igbo–English speakers often use indirect expressions, culturally situated meanings, politeness strategies and code-switching when they ask questions, request help or describe problems. Drawing on pragmatics and sociolinguistics, and on a dataset of elicited and naturally occurring Igbo and Igbo–English utterances, this talk looks at how people phrase information-seeking questions and requests, and evaluates AI responses when context is limited, when more context is supplied, and when clarification is needed.</p>
+          <p>It argues that users should not carry the whole burden of understanding by writing ever more elaborate prompts. Instead, AI assistants should accommodate the pragmatics of both languages, read the contextual cues available and ask for clarification when a request is unclear, making AI more responsive, accessible and culturally grounded for Igbo speakers.</p>
+        </details>
+        <p class="talk"><strong>Talk:</strong> Tuesday 1 December, 12:30 WAT (remote): Beyond literal translation: context, pragmatic understanding and effective Igbo–English AI communication</p>
       </div>
 
       <div class="card person speaker">
@@ -290,6 +299,20 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
       </div>
 
       <div class="card person speaker">
+        <div class="avatar"><span aria-hidden="true">JE</span><img src="assets/people/john_eze.png" alt="John Emeka Eze" onerror="this.remove()"></div>
+        <h3>John Emeka Eze</h3>
+        <p class="role">Data Scientist and AI/ML Engineer, African Languages Lab (Mansa AI)</p>
+        <p class="bio">Builds multilingual and multimodal language AI for African languages, from training data and fine-tuning to deployed systems.</p>
+        <details>
+          <summary>Full bio</summary>
+          <p>John Emeka Eze is a data scientist and AI/ML engineer with experience in turning data into actionable insights, developing training content for large language models, pretraining and fine-tuning transformer-based models, building multilingual and multimodal NLP pipelines, and deploying scalable AI systems.</p>
+          <p>His goal is to create AI-powered solutions that address the everyday challenges of African societies while training, mentoring and empowering others in the field, and to contribute to research and practical innovation in AI and machine learning.</p>
+        </details>
+        <a class="links" href="https://www.africanlanguageslab.com" target="_blank" rel="noopener">African Languages Lab</a>
+        <p class="talk"><strong>Talk:</strong> Wednesday 2 December, 12:30 WAT: Building AI that speaks our language: lessons from making Mansa AI work for African communities</p>
+      </div>
+
+      <div class="card person speaker">
         <div class="avatar"><span aria-hidden="true">IA</span><img src="assets/people/atanda.png" alt="Inioluwa Atanda" onerror="this.remove()"></div>
         <h3>Inioluwa Atanda</h3>
         <p class="role">AI and machine learning engineer</p>
@@ -300,6 +323,20 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
         </details>
         <a class="links" href="https://inioluwa.kamiai.tech/" target="_blank" rel="noopener">Profile and projects</a>
         <p class="talk"><strong>Talk:</strong> Thursday 3 December, 10:00 WAT: Evaluating language models in Yoruba, Igbo and Hausa: lessons from IrokoBench</p>
+      </div>
+
+      <div class="card person speaker">
+        <div class="avatar"><span aria-hidden="true">BO</span><img src="assets/people/blessing_ogbuokiri.png" alt="Dr Blessing Ogbuokiri" onerror="this.remove()"></div>
+        <h3>Dr Blessing Ogbuokiri</h3>
+        <p class="role">Assistant Professor of Computer Science, Brock University, Canada; Director, Responsible and Applied Machine Learning Laboratory (RAML Lab)</p>
+        <p class="bio">Works on responsible AI, AI safety and machine learning, making AI systems fair, transparent and trustworthy, with applications in healthcare and social good.</p>
+        <details>
+          <summary>Full bio</summary>
+          <p>Dr Blessing Ogbuokiri is an Assistant Professor in the Department of Computer Science at Brock University, Canada, and Director of the Responsible and Applied Machine Learning Laboratory (RAML Lab). His research expertise lies in responsible artificial intelligence (AI), AI safety, and machine learning, with a focus on fairness, transparency, and the trustworthy deployment of AI systems. He also works on advancing theoretical computing methods to improve the interpretability, fairness, and scalability of AI models. His research bridges fundamental algorithmic advances with real-world applications, particularly in healthcare and social good.</p>
+          <p>Dr Ogbuokiri has secured over $1.2 million in research funding, including support from the CIFAR AI Safety Solutions Network, the Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grants Program, the New Frontiers in Research Fund (NFRF), and Brock University. His research program seeks to advance AI systems that are not only accurate and scalable but also fair, interpretable, and trustworthy across diverse populations and real-world contexts.</p>
+        </details>
+        <a class="links" href="https://brocku.ca/mathematics-science/computer-science/faculty-staff/blessing-ogbuokiri/" target="_blank" rel="noopener">Profile at Brock University</a>
+        <p class="talk"><strong>Talk:</strong> Friday 4 December, 15:05 WAT (remote keynote): Responsible AI for everyday lives</p>
       </div>
 
     </div>
@@ -360,19 +397,18 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
   </div>
 </section>
 
-<section id="apply" class="apply" aria-labelledby="apply-h">
+<section id="selection" class="apply" aria-labelledby="selection-h">
   <div class="wrap">
-    <h2 id="apply-h">How to apply</h2>
-    <p class="lead">Applications are open to academic and non-academic staff, postgraduate and undergraduate students of Peter University and nearby institutions. The form takes 5 to 10 minutes.</p>
+    <h2 id="selection-h">Selection</h2>
+    <p class="lead">Applications closed on Sunday 15 November 2026. Thank you to everyone who applied: we received far more strong applications than the 50 places available.</p>
     <ol>
-      <li>Complete the Expression of Interest form by Sunday 15 November 2026, 23:59 WAT.</li>
-      <li>Two reviewers score each application without seeing names or institutions.</li>
-      <li>We select 50 participants, balancing staff and students, women and men, disciplines and institutions.</li>
-      <li>Everyone who applies hears from us by Thursday 19 November 2026.</li>
+      <li>Every application was scored on the same published criteria: the community problem described, how the applicant will use and share what they learn, Igbo reading and writing, and fit with one of the six project groups.</li>
+      <li>We selected 50 participants and a waiting list, balancing the six groups, women and men, staff and students, and coding experience.</li>
+      <li>All applicants were emailed on Tuesday 17 November. Offers must be accepted by Thursday 19 November 2026; places not accepted go to the waiting list.</li>
+      <li>Selected participants receive joining instructions on Tuesday 24 November.</li>
     </ol>
     <div class="ctas">
-      <a class="btn ghost" href="https://forms.cloud.microsoft/e/EKu2gHbrKE">Open the application form</a>
-      <span class="deadline">Closes 15 November 2026</span>
+      <span class="deadline">Accept your offer by Thursday 19 November</span>
     </div>
   </div>
 </section>
@@ -383,24 +419,30 @@ footer .wrap{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
     <details><summary>Do I need to know how to code?</summary><p>No. Every lab has a guided path for beginners. Teams mix people with and without programming experience.</p></details>
     <details><summary>Does it cost anything?</summary><p>No. The workshop, lunch, refreshments and materials are free, funded by the Friends of Lancaster University in America.</p></details>
     <details><summary>Do I need my own laptop?</summary><p>It helps but is not required. The Peter University computer laboratory is available, and teams share devices.</p></details>
-    <details><summary>Is travel or accommodation covered?</summary><p>No. Participants arrange their own daily travel to Peter University.</p></details>
-    <details><summary>Do I need to attend all five days?</summary><p>Yes. The project builds day by day, and certificates go to participants who attend all five days.</p></details>
+    <details><summary>Do I need to attend all five days?</summary><p>Yes. The project builds day by day, and certificates go only to participants who attend.</p></details>
     <details><summary>Do I need to speak Igbo?</summary><p>No, but Igbo speakers and writers are especially welcome. Every team needs some.</p></details>
-    <details><summary>What should I prepare?</summary><p>A Google account, which lets you open the lab notebooks. We will send joining instructions to selected participants on Tuesday 24 November.</p></details>
-    <details><summary>Is travel or accommodation covered?</summary><p>We reimburse reasonable daily travel costs to and from Peter University for selected participants. Accommodation is not provided. Details are shared with selected participants.</p></details>
+    <details><summary>What should I prepare?</summary><p>A Google account, which lets you open the lab notebooks, and a laptop if you have one. Joining instructions go to selected participants on Tuesday 24 November.</p></details>
+    <details><summary>Is travel or accommodation covered?</summary><p>Limited transport support is available for selected participants travelling from far away. Participants based at or near Peter University arrange their own travel, and accommodation is not provided. Details come with the joining instructions.</p></details>
     <details><summary>Who can I contact?</summary><p>Email Dr Ignatius Ezeani at <a href="mailto:i.ezeani@lancaster.ac.uk">i.ezeani@lancaster.ac.uk</a>.</p></details>
   </div>
 </section>
 
 <section class="alt" aria-labelledby="partners-h">
   <div class="wrap">
-    <h2 id="partners-h">Partners and funder</h2>
-    <p class="lead">A partnership between Lancaster University and Peter University Achina-Onneh, funded by the Friends of Lancaster University in America.</p>
-    <div class="partners">
-      <img src="assets/lancaster-logo.png" alt="Lancaster University">
-      <img src="assets/ucrel-logo.png" alt="UCREL Research Centre">
-      <img src="assets/peter_university.png" alt="Peter University Achina-Onneh">
-      <img src="assets/flua-logo.png" alt="Friends of Lancaster University in America">
+    <h2 id="partners-h">Partners, funder and supporters</h2>
+    <p class="lead">A partnership between Lancaster University and Peter University Achina-Onneh, funded by the Friends of Lancaster University in America and supported by African Languages Lab, makers of Mansa AI.</p>
+    <div class="partnerrow">
+      <div><p class="plabel">Partners</p><div class="partners">
+        <img src="assets/lancaster-logo.png" alt="Lancaster University">
+        <img src="assets/ucrel-logo.png" alt="UCREL Research Centre">
+        <img src="assets/peter_university.png" alt="Peter University Achina-Onneh">
+      </div></div>
+      <div><p class="plabel">Funded by</p><div class="partners">
+        <img src="assets/flua-logo.png" alt="Friends of Lancaster University in America">
+      </div></div>
+      <div><p class="plabel">Supported by</p><div class="partners">
+        <a href="https://www.africanlanguageslab.com" target="_blank" rel="noopener"><img src="assets/african-languages-lab-logo.png" alt="African Languages Lab" class="wide"></a>
+      </div></div>
     </div>
   </div>
 </section>
