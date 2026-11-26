@@ -2,7 +2,8 @@
 <img src="assets/lancaster-logo.png" alt="Lancaster University" height="56">&nbsp;&nbsp;
 <img src="assets/ucrel-logo.png" alt="UCREL" height="56">&nbsp;&nbsp;
 <img src="assets/peter_university.png" alt="Peter University" height="56">&nbsp;&nbsp;
-<img src="assets/flua-logo.png" alt="Friends of Lancaster University in America" height="56">
+<img src="assets/flua-logo.png" alt="Friends of Lancaster University in America" height="56">&nbsp;&nbsp;
+<img src="assets/african-languages-lab-logo.png" alt="African Languages Lab" height="40">
 </p>
 
 # AI for Impact 2026: Language AI for Local Solutions
@@ -24,6 +25,7 @@ Across the week, six mixed teams each build a **bilingual community knowledge as
 - Event website: https://ucrel.github.io/AI4Impact2026/
 - A partnership between **Lancaster University** (UCREL, School of Computing and Communications) and **Peter University Achina-Onneh**
 - Funded by the **Friends of Lancaster University in America (FLUA)**
+- Supported by **African Languages Lab**, makers of Mansa AI
 
 > Materials for each day are added to this repository on the morning of that day.
 
@@ -47,7 +49,7 @@ Across the week, six mixed teams each build a **bilingual community knowledge as
 | Agriculture and food | How do I store maize so weevils do not spoil it? |
 | Education and opportunities | How do I check that an admission offer is real? |
 | Igbo language and literacy | How do I type ụ and ọ on my phone? |
-| Livelihoods and microfinance, with Uzondu Microfinance Bank | What do I need to open a savings account? |
+| Livelihoods and microfinance | What do I need to open a savings account? |
 | Environment and energy | What should we do before the flood season? |
 
 ---
@@ -64,7 +66,7 @@ All times are West Africa Time (WAT, UTC+1). Each day runs from 10:00 to 16:00, 
 | 10:00 to 10:25 | Opening ceremony | Vice-Chancellor; Dr Ignatius Ezeani |
 | 10:25 to 11:00 | **Anchor talk:** Language AI for our languages | Dr Ignatius Ezeani |
 | 11:00 to 12:10 | **Lab 1A:** Text as data | Dr Ezeani |
-| 12:30 to 13:00 | **Partner spotlight:** Uzondu Microfinance Bank (to be confirmed) | Uzondu Microfinance Bank |
+| 12:30 to 13:00 | **Spotlight talk:** Understanding how a community-based Uzondu Microfinance Bank works: strategic business and digital transformation assessment | Fr Cyprian Ezeakunne, Managing Director, Uzondu Microfinance Bank |
 | 14:00 to 15:30 | **Lab 1B, project step 1 (Gather):** build the bilingual knowledge base | Dr Ezeani; all mentors |
 | 15:30 to 16:00 | Checkpoint 1 and data ethics clinic | Dr Ezeani; Prof Rayson |
 
@@ -74,8 +76,8 @@ All times are West Africa Time (WAT, UTC+1). Each day runs from 10:00 to 16:00, 
 | --- | --- | --- |
 | 10:00 to 10:40 | **Anchor talk:** How computers find meaning in text | Prof Paul Rayson |
 | 10:40 to 12:10 | **Lab 2A:** Teaching a computer to sort text | Dr Ezeani |
-| 12:30 to 13:00 | Project clinic | All mentors |
-| 14:00 to 15:30 | **Lab 2B, project step 2 (Understand):** the question router | Dr Ezeani; all mentors |
+| 12:30 to 13:00 | **Invited talk (remote):** Beyond literal translation: context, pragmatic understanding and effective Igbo–English AI communication | Dr Ebuka Igwebuike, SOAS University of London |
+| 14:00 to 15:30 | **Lab 2B, project step 2 (Understand):** write swap questions for another group, then build the question router | Dr Ezeani; all mentors |
 | 15:30 to 16:00 | Checkpoint 2 | Dr Ezeani; Prof Rayson |
 
 ### Day 3 · Wednesday 2 December 2026 · Extract
@@ -84,7 +86,7 @@ All times are West Africa Time (WAT, UTC+1). Each day runs from 10:00 to 16:00, 
 | --- | --- | --- |
 | 10:00 to 10:40 | **Anchor talk:** Language AI for low-resource languages | Dr Tharindu Ranasinghe, Lancaster University |
 | 10:40 to 12:10 | **Lab 3A:** Finding names, places, dates and numbers | Dr Ezeani |
-| 12:30 to 13:00 | **Partner spotlight:** Building AI for Africa | African Languages Lab (MansaAI) |
+| 12:30 to 13:00 | **Partner talk:** Building AI that speaks our language: lessons from making Mansa AI work for African communities | John Emeka Eze, African Languages Lab |
 | 14:00 to 15:30 | **Lab 3B, project step 3 (Extract):** glossary and fact cards, with an Igbo language clinic | Dr Ezeani; all mentors |
 | 15:30 to 16:00 | Checkpoint 3 | Dr Ezeani; Prof Rayson |
 
@@ -94,7 +96,7 @@ All times are West Africa Time (WAT, UTC+1). Each day runs from 10:00 to 16:00, 
 | --- | --- | --- |
 | 10:00 to 10:40 | **Anchor talk:** Evaluating language models in Yoruba, Igbo and Hausa: lessons from IrokoBench | Inioluwa Atanda |
 | 10:40 to 12:10 | **Lab 4A:** Search, prompting and retrieval, including AI that works where the internet does not | Dr Ezeani; Dr Vidler |
-| 12:30 to 13:00 | **Partner spotlight:** From sensor to sentence: skills for physical AI (to be confirmed) | Nueltron Technologies |
+| 12:30 to 13:00 | **Project clinic:** prepare your assistant's safety words and "not sure" message | Dr Ezeani; all mentors |
 | 14:00 to 15:30 | **Lab 4B, project step 4 (Answer):** assemble the assistant | Dr Ezeani; all mentors |
 | 15:30 to 16:00 | Checkpoint 4: live demo swap | Dr Ezeani; Dr Vidler |
 
